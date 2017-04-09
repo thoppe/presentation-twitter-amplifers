@@ -6,10 +6,9 @@
 
 @p .text-intro 
   Hack && Tell presentation
-  [webslides](https://github.com/jlantunez/webslides)
-
+  
 @footer @div .wrap @div .span
- @button(href="https://github.com/thoppe/miniprez") .alignleft .ghost
+ @button(href="https://github.com/thoppe/presentation-twitter-amplifers") .alignleft .ghost
    ::github:: Project repo
  @button(href="https://twitter.com/metasemantic") .ghost .alignright
    ::twitter:: @metasemantic 
