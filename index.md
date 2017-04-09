@@ -10,68 +10,49 @@
  @button(href="https://twitter.com/metasemantic") .ghost .alignright
    ::twitter:: @metasemantic 
 
-----  .bg-black
-
+----  .bg-black .slide-top
 @background(url="https://cdn-images-1.medium.com/max/1200/1*z35xZD_H8RkyAEtSz-RVBA.jpeg")
 
-@div .wrap
+@div .wrap .content-left
      @h1 **Data for Democracy**
      @h2 hackathon!
 
----- .align-left .bg-white
+---- .wrap
 
-@div .wrap .size-50 
-
-  @h1 .text-landing The solution: <br> miniprez
-  @line
-  @p A [python library](https://github.com/thoppe/miniprez) written using
-     [pyparsing](http://pyparsing.wikispaces.com/) and
-     [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
-     Miniprez compiles [text](tutorial.md) into a single-page html presentation
-     (like this one) with extra goodies. Emoji, font-awesome, LaTeX, and code
-     highlighting are built in. Full-screen backgrounds and video can render behind
-     the each screen. Slides are controlled with page-up and page-down and scrolled
-     easily on mobile.
-
+@div @h2 
+	With the rise of pseudo-news,<br>
+	bots, and mainstream trolls,<br>
+	is there any signal in this noise?<br>
+<br><br><br>
+hell yes, let's find it. 
 ---- .align-left .bg-black
-@unsplash(F1dSr7I4AmY) .dark
+@unsplash(pb_lF8VWaPU) .dark
 
-.text-landing .text-content _Slide 2_
-@h2 _simple markdown support_
-Basic [Markdown](https://daringfireball.net/projects/markdown/syntax) with tweaks!
+@h1 hey twitter
+What does an echo chamber look like?
 
-@line
-
-@h3 
- + :muscle: **bold** `**text**`
- + :fire: *fire* `*text*`
- + :cloud: _emph_ `_text_`
- + :computer: `code` `&&&`code&&&`` 
+@p
+	+ Can we distinguish people inside and out?
+	+ Do accounts have multiple chambers?
+	+ Can this be done programmaticly?
 
 ---- .align-left .bg-apple
-@unsplash(pmX9BkDDr_A) .light
+@unsplash(Dn-BqRT9RBk) .dark
 
-.text-landing Slide 3
-@h2 _emoji_
-Standard emoji and [font-awesome](http://fontawesome.io/)  
-@line
+@h1 Methodology
++ Start with a target user
++ Collect all followers accounts to the user
++ Collect all tweets from these followers
++ Hash all tweets and find those similair (via [Simhash](https://github.com/leonsim/simhash))
++ Compute a similarity score between all accounts
++ Cluster accounts on similairty
 
-.grid @h3
-  | `:battery:` :battery:
-  | `:heart_eyes:` :heart_eyes:
-  | `::meetup::` ::meetup::
-  | `::ra::` ::ra:: 
+---- .aligncenter .bg-black
 
----- .bg-apple .align-left
-@unsplash(5mZ_M06Fc9g) .dark
+@h1 **@metasemantic**
+@figure(src="metasemantic.png" height=600px)
 
-.text-landing Slide 4
-@h2 _math support_
-LaTeX rendered inline with [KaTex](https://github.com/Khan/KaTeX)  
-@line
-@h3 $P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}$
-<br>
-`$P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}$`
+
 
 ---- .align-left .bg-black					
 @unsplash(7BiMECHFgFY)
