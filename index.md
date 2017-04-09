@@ -34,18 +34,20 @@ What does an echo chamber look like?
 @p
 	+ Can we distinguish people inside and out?
 	+ Do accounts have multiple chambers?
-	+ Can this be done programmaticly?
+	+ Can this be done in a programmatic way?
 
 ---- .align-left .bg-apple
 @unsplash(Dn-BqRT9RBk) .dark
 
 @h1 Methodology
-+ Start with a target user
-+ Collect all followers accounts to the user
-+ Collect all tweets from these followers
-+ Hash all tweets and find those similair (via [Simhash](https://github.com/leonsim/simhash))
-+ Compute a similarity score between all accounts
-+ Cluster accounts on similairty
+@p
+	+ Start with a target user
+	+ Collect all followers accounts to the user
+	+ Collect all tweets from these followers
+	+ Clean tweets, remove links, reduce emoji, :smile:
+	+ Hash all tweets and find those similar, via [Simhash](https://github.com/leonsim/simhash)
+	+ Compute a similarity score between all accounts
+	+ Cluster accounts on similarity
 
 ---- .aligncenter .bg-black
 
@@ -82,3 +84,4 @@ No real communities, no large following
 @footer
   @h4 Contribute at
   @h2 [https://github.com/thoppe/miniprez](https://github.com/thoppe/miniprez)
+
