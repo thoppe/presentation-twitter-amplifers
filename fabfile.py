@@ -13,3 +13,7 @@ def watch():
 
 def view():
     local("xdg-open index.html")
+
+def push():
+    local("git commit -a")
+    local("git push")

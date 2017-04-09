@@ -2,10 +2,7 @@
 @unsplash(SKcTKYNRvHY) .light
 
 @h3 .text-data **twitter amplifers** 
-@h4 How does a hate-machine operate?
-
-@p .text-intro 
-  Hack && Tell presentation
+@h4 A glimpse into the alt-right
   
 @footer @div .wrap @div .span
  @button(href="https://github.com/thoppe/presentation-twitter-amplifers") .alignleft .ghost
@@ -15,16 +12,11 @@
 
 ----  .bg-black
 
-@p @h1 .text-landing The problem 
+@background(url="https://cdn-images-1.medium.com/max/1200/1*z35xZD_H8RkyAEtSz-RVBA.jpeg")
 
-.text-intro
- + I want simple and beautiful presentations.
- + Presentations that compile from text to interactive webpages.
- + Presentations that seperate content from style like Markdown. 
- + Presentations that render mathematics and highlight code.
- <br> Oh, and they should work well* on mobile too.
-
-@footer @div .alignright *just show me the content!
+@div .wrap
+     @h1 **Data for Democracy**
+     @h2 hackathon!
 
 ---- .align-left .bg-white
 
