@@ -49,45 +49,26 @@ What does an echo chamber look like?
 
 ---- .aligncenter .bg-black
 
-@h1 **@metasemantic**
+@h1 **@metasemantic** (that's me!)
 @figure(src="metasemantic.png" height=600px)
+No real communities, no large following
+
+---- .bg-black
+
+@h1 **@RichardBSpencer**
+@h3  white supremacist, alt-right
+<br>
+.wrap @h4
+	"Hail Trump, hail our people, hail victory!" Spencer has popularized the term 'alt-right' to describe the movement he leads. Spencer has said his dream is 'a new society, an ethno-state that would be a gathering point for all Europeans,' and has called for 'peaceful ethnic cleansing.'
 
 
+@footer still can't recall him?
 
----- .align-left .bg-black					
-@unsplash(7BiMECHFgFY)
-
-.text-landing Slide 5
-@h2 _pretty code blocks_
-Syntax highlighting Google's [code prettify](https://github.com/google/code-prettify)  
-
-```
-sort [] = []
-sort (x:xs) = sort lower ++ [x] ++ sort higher
-    where
-        lower = filter (< x) xs
-        higher = filter (>= x) xs
-```
-Code blocks are context-aware
-```
-// to convert prefix to postfix
-main() {
-  char c = getchar();
-  (c == '+' || c == '-' || c == '*' || c == '/') ? main(), main() : 0;
-  putchar(c);
-} 
-```
-
------ .slide-top
-@background_video(https://cdn.shutterstock.com/shutterstock/videos/15778135/preview/stock-footage-office-chair-race-slow-motion-young-guys-have-fun-in-the-office-during-a-break-games-of-businessm.mp4)
-
-.text-landing Slide 6
-@h2 _looping background animations_
-Embed/hotlink any video file (thanks [Shutterstock](https://www.shutterstock.com/)!)
+---- .bg-black
+@background_video(src="RS_punch.mp4")
+@h1 **@RichardBSpencer**
 
 ---- .slide-bottom .bg-black
-@unsplash(U5rMrSI7Pn4) .light
-
 .content-center .text-shadow 
   @h1 .text-landing **A pug and an Equation**
   @h3 $i \hbar \frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat H \Psi(\mathbf{r},t)$
