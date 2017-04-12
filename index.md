@@ -71,7 +71,7 @@ No real communities, no large following
 @h1 **@RichardBSpencer**
 
 ---- .bg-black .aligncenter
-@h3 **@RichardBSpencer** followers (5/55K)
+@h3 **@RichardBSpencer** followers (5/55K), Feb-Mar tweets
 @figure(src="figures/SG_unorg.png")
 unordered
 
@@ -85,12 +85,25 @@ clustered
 @figure(src="figures/SG_degree.png")
 sorted by degree -- there's a natural dimension of connectivity
 
+---- .bg-black .aligncenter
+@h4 Do simple word clouds tell us anything?
+
+Not much difference between low degree
+@figure(src="figures/qmin.png")
+
+and high degree
+@figure(src="figures/qmax.png")
+
+---- .bg-black .aligncenter
+But some words clearly correlate with the distance
+@figure(src="figures/word_freq.png")
+
 
 ----- .bg-apple
 
 # .text-data Thanks, you!
 
 @footer
-  @h4 Contribute at
-  @h2 [https://github.com/thoppe/miniprez](https://github.com/thoppe/miniprez)
+  @h4 Thoughts? Ideas? Want to contribute?
+  @h2 [@metasemantic](href="https://twitter.com/metasemantic")
 
