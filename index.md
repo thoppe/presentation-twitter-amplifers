@@ -99,6 +99,22 @@ But some words clearly correlate with the distance
 @figure(src="figures/word_freq.png")
 
 
+---- .bg-black
+
+@h1 **@passionatechica**, joined Oct 2016, 
+@h3  bot/troll army account, auto follows, ~250 tweets/day
+@figure(src="figures/BP_cap.png")
+
+---- .bg-black .aligncenter
+@h3 **@passionatechica** following
+@figure(src="figures/BP_ordered.png")
+sorted by degree -- notice an external community
+
+---- .bg-black .aligncenter
+@h3 **@passionatechica** following 
+@figure(src="figures/BP_large.png")
+cluster -- clear external community (Sanders supporters!?)
+
 ----- .bg-apple
 
 # .text-data Thanks, you!
