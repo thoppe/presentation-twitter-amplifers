@@ -52,7 +52,7 @@ What does an echo chamber look like?
 ---- .aligncenter .bg-black
 
 @h1 **@metasemantic** (that's me!)
-@figure(src="metasemantic.png" height=600px)
+@figure(src="figures/metasemantic.png" height=600px)
 No real communities, no large following
 
 ---- .bg-black
@@ -67,15 +67,24 @@ No real communities, no large following
 @footer still can't recall him?
 
 ---- .bg-black
-@background_video(src="RS_punch.mp4")
+@background_video(src="figures/RS_punch.mp4")
 @h1 **@RichardBSpencer**
 
----- .slide-bottom .bg-black
-.content-center .text-shadow 
-  @h1 .text-landing **A pug and an Equation**
-  @h3 $i \hbar \frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat H \Psi(\mathbf{r},t)$
-  
-@footer this slide looks important right? It's not!
+---- .bg-black .aligncenter
+@h3 **@RichardBSpencer** followers (5/55K)
+@figure(src="figures/SG_unorg.png")
+unordered
+
+---- .bg-black .aligncenter
+@h3 **@RichardBSpencer** followers (5/55K)
+@figure(src="figures/SG_large.png")
+clustered
+
+---- .bg-black .aligncenter
+@h3 **@RichardBSpencer** followers (5/55K)
+@figure(src="figures/SG_degree.png")
+sorted by degree -- there's a natural dimension of connectivity
+
 
 ----- .bg-apple
 
