@@ -52,7 +52,7 @@ What does an echo chamber look like?
 ---- .aligncenter .bg-black
 
 @h1 **@metasemantic** (that's me!)
-@figure(src="metasemantic.png" height=600px)
+@figure(src="figures/metasemantic.png" height=600px)
 No real communities, no large following
 
 ---- .bg-black
@@ -67,21 +67,59 @@ No real communities, no large following
 @footer still can't recall him?
 
 ---- .bg-black
-@background_video(src="RS_punch.mp4")
+@background_video(src="figures/RS_punch.mp4")
 @h1 **@RichardBSpencer**
 
----- .slide-bottom .bg-black
-.content-center .text-shadow 
-  @h1 .text-landing **A pug and an Equation**
-  @h3 $i \hbar \frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat H \Psi(\mathbf{r},t)$
-  
-@footer this slide looks important right? It's not!
+---- .bg-black .aligncenter
+@h3 **@RichardBSpencer** followers (5/55K), Feb-Mar tweets
+@figure(src="figures/SG_unorg.png")
+unordered
+
+---- .bg-black .aligncenter
+@h3 **@RichardBSpencer** followers (5/55K)
+@figure(src="figures/SG_large.png")
+clustered
+
+---- .bg-black .aligncenter
+@h3 **@RichardBSpencer** followers (5/55K)
+@figure(src="figures/SG_degree.png")
+sorted by degree -- there's a natural dimension of connectivity
+
+---- .bg-black .aligncenter
+@h4 Do simple word clouds tell us anything?
+
+Not much difference between low degree
+@figure(src="figures/qmin.png")
+
+and high degree
+@figure(src="figures/qmax.png")
+
+---- .bg-black .aligncenter
+But some words clearly correlate with the distance
+@figure(src="figures/word_freq.png")
+
+
+---- .bg-black
+
+@h1 **@passionatechica**, joined Oct 2016, 
+@h3  bot/troll army account, auto follows, ~250 tweets/day
+@figure(src="figures/BP_cap.png")
+
+---- .bg-black .aligncenter
+@h3 **@passionatechica** following
+@figure(src="figures/BP_ordered.png")
+sorted by degree -- notice an external community
+
+---- .bg-black .aligncenter
+@h3 **@passionatechica** following 
+@figure(src="figures/BP_large.png")
+cluster -- clear external community (Sanders supporters!?)
 
 ----- .bg-apple
 
 # .text-data Thanks, you!
 
 @footer
-  @h4 Contribute at
-  @h2 [https://github.com/thoppe/miniprez](https://github.com/thoppe/miniprez)
+  @h4 Thoughts? Ideas? Want to contribute?
+  @h2 [@metasemantic](href="https://twitter.com/metasemantic")
 
